@@ -1,0 +1,10 @@
+# Store every text file with LF in the repository and check it out as LF too,
+# so the plugin behaves identically on Windows, macOS, and Linux.
+* text=auto eol=lf
+
+# Assets that must never be line-ending converted.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.gif binary

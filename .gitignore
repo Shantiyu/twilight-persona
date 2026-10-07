@@ -1,0 +1,7 @@
+# Dependencies are never vendored here: the bundle is linked into a profile.
+node_modules/
+
+# Editor and OS noise.
+.DS_Store
+Thumbs.db
+*.log

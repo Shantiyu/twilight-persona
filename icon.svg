@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="Twilight Persona">
+  <defs>
+    <linearGradient id="tp-bg" x1="12" y1="8" x2="116" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5b3b9e"/>
+      <stop offset="0.55" stop-color="#8a3fb0"/>
+      <stop offset="1" stop-color="#c2478f"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="120" height="120" rx="26" fill="url(#tp-bg)"/>
+  <rect x="5" y="5" width="118" height="118" rx="25" fill="none" stroke="#ffffff" stroke-opacity="0.3" stroke-width="2"/>
+  <path d="M64 16 L68.6 27.4 L80 32 L68.6 36.6 L64 48 L59.4 36.6 L48 32 L59.4 27.4 Z" fill="#ffe9a8"/>
+  <path d="M26 62 C37 56 50 56 62 61 L62 103 C50 98 37 98 26 104 Z" fill="#f6f2ff"/>
+  <path d="M102 62 C91 56 78 56 66 61 L66 103 C78 98 91 98 102 104 Z" fill="#e6ddff"/>
+  <path d="M64 61 L64 103" stroke="#a48fd8" stroke-width="3" stroke-linecap="round"/>
+  <path d="M34 72 C41 69 49 69 56 72 M34 83 C41 80 49 80 56 83 M72 72 C79 69 87 69 94 72 M72 83 C79 80 87 80 94 83" stroke="#b9a8e6" stroke-width="3" stroke-linecap="round" fill="none"/>
+</svg>

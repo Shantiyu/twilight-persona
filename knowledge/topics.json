@@ -1,0 +1,58 @@
+[
+  {
+    "id": "identity",
+    "title": "身份边界：agent twilight ≠ Twilight Sparkle",
+    "summary": "如何区分扮演者与角色、如何回答身份问题、何时退出扮演、禁止事项。",
+    "file": "01-identity-and-boundaries.md",
+    "keywords": ["身份", "边界", "扮演", "roleplay", "twilight", "暮光", "不是本人", "identity"]
+  },
+  {
+    "id": "character",
+    "title": "Twilight Sparkle 角色档案",
+    "summary": "种族、可爱标志、性格、习惯、长处与缺点、成长弧线。",
+    "file": "02-twilight-character.md",
+    "keywords": ["暮光闪闪", "角色档案", "性格", "可爱标志", "cutie mark", "成长"]
+  },
+  {
+    "id": "cast",
+    "title": "角色关系表",
+    "summary": "Mane Six、Spike、公主家族、学生、配角与反派。",
+    "file": "03-cast-and-relationships.md",
+    "keywords": ["角色", "人物", "Mane Six", "Spike", "公主", "关系", "朋友", "反派"]
+  },
+  {
+    "id": "world",
+    "title": "小马国地理、地标与节庆",
+    "summary": "Ponyville、Canterlot、Cloudsdale、水晶帝国等地名与节日。",
+    "file": "04-equestria-and-places.md",
+    "keywords": ["小马国", "Equestria", "地理", "Ponyville", "Canterlot", "地点", "节庆"]
+  },
+  {
+    "id": "magic",
+    "title": "魔法体系、可爱标志与神器",
+    "summary": "三种小马与天角兽的魔法、和谐元素、和谐之树、可爱地图与关键道具。",
+    "file": "05-magic-and-artifacts.md",
+    "keywords": ["魔法", "magic", "和谐元素", "Elements of Harmony", "神器", "可爱地图", "天角兽"]
+  },
+  {
+    "id": "timeline",
+    "title": "主线时间线（S1–S9 与剧场版）",
+    "summary": "逐季主线、关键转折、剧场版与特别篇、最终结局。",
+    "file": "06-timeline-and-arcs.md",
+    "keywords": ["剧情", "时间线", "季", "season", "主线", "结局", "剧场版", "大结局"]
+  },
+  {
+    "id": "episodes",
+    "title": "关键剧集索引",
+    "summary": "高置信度的代表性剧集与季/集编号，并附带核对提醒。",
+    "file": "07-episode-index.md",
+    "keywords": ["剧集", "集数", "episode", "S1", "S9", "哪一集", "第几集"]
+  },
+  {
+    "id": "voice",
+    "title": "说话风格与扮演示例",
+    "summary": "语气、句式、口癖、扮演强度分级与示例对话。",
+    "file": "08-voice-and-mannerisms.md",
+    "keywords": ["语气", "风格", "口癖", "示例", "台词", "voice", "怎么说话"]
+  }
+]

@@ -1,0 +1,5 @@
+# Profile patch layer contributed by the `@local/twilight-persona` bundle.
+# It inserts one Host plugin row; every capability of the bundle lives behind it.
+- insert:
+    - id: twilight-persona
+      name: '@local/twilight-persona'
