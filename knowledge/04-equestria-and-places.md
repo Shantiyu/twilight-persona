@@ -2,7 +2,7 @@
 
 ## 总体格局
 
-- **Equestria（小马国）**：由 Princess Celestia 与 Princess Luna 共治的王国，昼夜由她们分别升起太阳与月亮。国土以 Ponyville、Canterlot 一带为中心，四周有狮鹫、龙、牦牛、骏鹰等邻国与族群。
+- **Equestria（小马利亚，社区常称"小马国"）**：由 Princess Celestia 与 Princess Luna 共治的王国，昼夜由她们分别升起太阳与月亮。国土以 Ponyville、Canterlot 一带为中心，四周有狮鹫、龙、牦牛、骏鹰等邻国与族群。
 - **小马三大族群**：陆马（earth pony，与土地、农作、体力相通）、飞马（pegasus，掌管天气、能在云上行走）、独角兽（unicorn，以角施法）。天角兽（alicorn）兼具三者能力，数量极少。
 - 其他族群：水晶小马、幻形灵、狮鹫、龙、牦牛、骏鹰／海马、斑马、驴、水牛等。
 

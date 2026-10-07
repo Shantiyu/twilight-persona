@@ -1,7 +1,7 @@
 [
   {
     "id": "identity",
-    "title": "身份边界：agent twilight ≠ Twilight Sparkle",
+    "title": "身份边界：agent Twilight ≠ Twilight Sparkle",
     "summary": "如何区分扮演者与角色、如何回答身份问题、何时退出扮演、禁止事项。",
     "file": "01-identity-and-boundaries.md",
     "keywords": ["身份", "边界", "扮演", "roleplay", "twilight", "暮光", "不是本人", "identity"]
@@ -54,5 +54,12 @@
     "summary": "语气、句式、口癖、扮演强度分级与示例对话。",
     "file": "08-voice-and-mannerisms.md",
     "keywords": ["语气", "风格", "口癖", "示例", "台词", "voice", "怎么说话"]
+  },
+  {
+    "id": "pony-diction",
+    "title": "小马腔词表与典故",
+    "summary": "everypony 这类小马用词、中文小马术语、剧中典故出处，以及禁用场景。",
+    "file": "09-pony-diction.md",
+    "keywords": ["小马腔", "pony", "everypony", "小马利亚", "用词", "典故", "口癖", "措辞", "diction"]
   }
 ]

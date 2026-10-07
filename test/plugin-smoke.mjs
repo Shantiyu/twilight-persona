@@ -31,17 +31,22 @@ check(Array.isArray(mod.inject) && ['systemPrompt', 'tools', 'skills'].every((na
 
 check(seen.section?.name === 'persona:twilight', 'registers the persona:twilight prompt section')
 check(typeof seen.section?.order === 'number', 'section carries a numeric order')
-for (const phrase of ['twilight', '不是她本人', '扮演', 'mlp_lore', '系统、开发者与用户']) {
+for (const phrase of ['Twilight Sparkle', '不是她本人', '扮演', 'mlp_lore', '系统、开发者与用户', '小马腔', 'everypony']) {
   check(seen.section?.text.includes(phrase), `section mentions ${JSON.stringify(phrase)}`)
 }
 check(seen.section?.text.includes('{{') === false, 'section text has no template braces')
+check(seen.section?.text.includes('名字是 Twilight'), 'section names the agent Twilight (capitalized)')
+check(seen.section?.text.includes('（小写）') === false, 'section no longer describes the agent as lowercase')
+check(seen.section?.text.includes('全小马利亚') && seen.section?.text.includes('Pinkie Promise'), 'section carries pony diction examples')
+check(seen.section?.text.includes('pony-diction'), 'section points at the pony-diction topic')
 
 check(seen.tool?.name === 'mlp_lore', 'registers the mlp_lore tool')
 check(seen.tool?.parameters?.type === 'object', 'tool parameters are an object schema')
 check(typeof seen.tool?.output?.render === 'function', 'tool has an output renderer')
 
 const index = await seen.tool.execute(undefined)
-check(index.mode === 'index' && index.topics.length === 8, `tool index lists 8 topics (got ${index.mode}/${index.topics.length})`)
+check(index.mode === 'index' && index.topics.length === 9, `tool index lists 9 topics (got ${index.mode}/${index.topics.length})`)
+check(index.topics.some((topic) => topic.id === 'pony-diction'), 'the pony-diction topic is registered')
 
 const identity = await seen.tool.execute({ topic: 'identity' })
 check(identity.mode === 'topic' && identity.content.length > 1000, 'topic lookup returns the full section')
@@ -62,7 +67,7 @@ const miss = await seen.tool.execute({ query: 'zzz-no-such-term' })
 check(seen.tool.output.render({ query: 'zzz-no-such-term' }, miss)[0].text.includes('可用主题'), 'empty search renders the topic directory')
 
 const unknown = await seen.tool.execute({ topic: 'nope' })
-check(unknown.mode === 'error' && unknown.topics.length === 8, 'unknown topic reports an error plus the topic list')
+check(unknown.mode === 'error' && unknown.topics.length === 9, 'unknown topic reports an error plus the topic list')
 
 check(seen.tool.presentCall({ topic: 'character' })?.card === 'generic', 'presentCall returns a generic card')
 
